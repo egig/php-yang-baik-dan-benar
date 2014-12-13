@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
+@import url(http://fonts.googleapis.com/css?family=Bitter);
+
+body {
+	color:#444;
+}
+
+.tslogan {
+	font-family: Georgia, serif;
+	font-size: 28px;
+}
+
+p {
+	text-align: justify;
+}
+
+a {
+   outline: 0 !important;
+}
+
+.content-wrapper {
+	border-left: 1px solid #e4e4e4;
+	border-right: 1px solid #e4e4e4;
+	padding-bottom: 30px !important;
+}
+
+ul {
+	list-style: none;
+}
+
+.content-wrapper ul li:before {
+	content: '- ';
+}
+
+.content-wrapper h1,
+.content-wrapper h2,
+.content-wrapper h3,
+.content-wrapper h4,
+.content-wrapper h5,
+.content-wrapper h6 {
+	font-family: Bitter !important;
+	color:#555;
+}
