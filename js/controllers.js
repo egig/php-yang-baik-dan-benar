@@ -17,7 +17,7 @@
 	
 	function singlePageCtrl ($routeParams,$http, $scope) {
 		var slug = $routeParams.slug;
-		$http.get('/' + slug.replace('.html','.md')).
+		$http.get(slug.replace('.html','.md')).
 			success(function(response) {
 				$scope.content = marked(response, {gfm: true});
 			}).
