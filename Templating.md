@@ -1,3 +1,0 @@
-# Templating
-
-to be completed

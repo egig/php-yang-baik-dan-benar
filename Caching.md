@@ -1,3 +1,0 @@
-# Caching
-
-to be completed

@@ -1,17 +1,4 @@
 [
-	{ "title" : "Sampul"},
-	{ "title" : "Dasar"},
-	{ "title" : "Database"},
-	{ "title" : "Error dan Exception"},
-	{ "title" : "Caching"},
-	{ "title" : "Security"},
-	{ "title" : "Design Pattern"},
-	{ "title" : "Coding Style"},
-	{ "title" : "Dependencies"},
-	{ "title" : "CRUD"},
-	{ "title" : "Templating"},
-	{ "title" : "Testing"},
-	{ "title" : "Server dan Deployment"},
-	{ "title" : "Sumber Informasi"},
-	{ "title" : "Komunitas"}
+	{ "title":"Gaya Penulisan Kode Program", "slug":"coding_style"},
+	{ "title":"Templating", "slug":"templating"}
 ]
