@@ -1,8 +1,10 @@
 # Templating
+
+## PHP Sebagai _Template Language_
+
 Pernah melihat kode dibawah ?  atau yang mirip ?
 
 ```cpp
-
 cout<<"\n| nama  |  alamat | usia ";
 for (a=0;a<5;a++) {
     cout<<"\n|"<<data[a].nama<<"   | "<<data[a].alamat<<"  |  "<<data[a].usia;
@@ -10,6 +12,7 @@ for (a=0;a<5;a++) {
 ```
 
 Itu adalah kode C++ untuk mencetak "tabel" di *console*. Mahasiswa ilmu komputer tingkat awal yang belajar C++ mungkin kenal. Bagi anda yang sebelumnya pernah belajar C++ dan kemudian belajar PHP, dapat kah membuat kode yang equivalen dengan PHP untuk membuat tabel yang mirip pada HTML (browser) ? ya, bagi programmer PHP pemula yang sebelumnya belajar C++, kebanyakan mungkin akan membuatnya seperti berikut:
+
 ```php
 <?php
 echo '<tabel>';
@@ -37,12 +40,15 @@ Tapi, ketika kita bekerja dengan web designer atau Frontend Developer mungkin pe
     <? endfor; ?>
 </table>
 ```
+
 ### Tentang PHP Short Open Tag
+
 Sintak *open tag* php yang lengkap adalah `<?php  ... ?>`. Namun PHP memilki pilihan `short_open_tag` pada file konfigurasi `php.ini`. Jika bernilai `On` atau `1`, maka kita bisa menggunakan short open tag tersebut: `<?... ?>`. __Perhatikan__ bahwa pilihan ini tidak selalu ada di semua server, walaupun PHP v >= 5.4 sudah mengaktifkannya secara default. Pilihan tersebut juga berdampak pada sintak alternatif untuk `echo`, yaitu `<?= 'string' ?>`. Namun PHP v >= 5.4 sudah bisa tenang karena sintak tersebut akan selalu tersedia. Karena php `5.3` masih banyak digunakan (pada saat saya menulis ini), untuk aman-nya, selalu gunakan sintak lengkap dan `echo` untuk mencetak variable.
 
 Contoh diatas dan contoh-contoh lainnya dituliskan dengan _open tag_ yang lengkap dan `echo` adalah sebagai berikut:
 
 #### FOR
+
 ```php
 <tabel>
   <?php for($a=0;$a<5;$a++): ?>
@@ -70,3 +76,32 @@ Contoh diatas dan contoh-contoh lainnya dituliskan dengan _open tag_ yang lengka
 <?php endforeach; ?>
 </ul>
 ```
+
+## Template Engine
+Tidak semua Web Designer atau FrontEnd Developer mengenal PHP. Oleh karena itu, banyak developer PHP yang membuat _Template Engine_ yang bisa digunakan untuk kerja secara tim dengan web designer dalam pengembangan template website. Salah satu _Template Engine_ untuk PHP yang populer adalah [Twig](http://twig.sensiolabs.org/). Contoh-contoh di atas jika ditulis menggunakan Twig kurang lebih adalah sebagai berikut:
+
+#### FOR
+
+```html
+<tabel>
+  {% for(a in data): %}
+    <tr>
+       <td> {{ a.nama }}</td>
+       <td> {{ a.alamat }}</td>
+       <td> {{ a.usia }}</td>
+    </tr>
+  {% endfor; %}
+</table>
+```
+
+#### IF/ELSE
+```html
+{% if(isNotHome): %}
+    <a href="{{ linkToHome }}">{{ linkToHome }}</a>
+{% endif; %}
+```
+
+Resources:
+ - <http://php.net/manual/en/control-structures.alternative-syntax.php>
+ - <http://php.net/manual/en/language.basic-syntax.phptags.php>
+ - <http://www.smarty.net>
