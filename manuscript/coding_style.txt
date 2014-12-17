@@ -13,12 +13,12 @@ Jadi wordpress sedikit banyak mengikuti **Pear coding standar**. Mengenai Pear, 
 
 ## Codeigniter
 
-Codeigniter adalah PHP Framework yang sangat populer di dunia. Pada saat saya menulis ini, Codeigniter sudah mencapai versi 2.2.0. Jika tim anda menggunakan Codeigniter sebagai framework pengembangan aplikasi, tidak ada ruginya mempertimbangkan untuk juga mengikuti "Coding Style Guide" mereka. Silahkan merujuk pada halaman <http://www.codeigniter.com/user_guide/general/styleguide>.html.
+Codeigniter adalah PHP Framework yang sangat populer di dunia. Pada saat saya menulis ini, Codeigniter sudah mencapai versi 2.2.0. Jika tim anda menggunakan Codeigniter sebagai framework pengembangan aplikasi, tidak ada ruginya mempertimbangkan untuk juga mengikuti "Coding Style Guide" mereka. Silahkan merujuk pada halaman <http://www.codeigniter.com/user_guide/general/styleguide.html>.
 
 
 ## PHP-FIG
 
-FIG adalah singkatan dari Framework Interoperability Group. Sejalan perkembangannya, di PHP saat ini, kita bisa menggunakan sebuah librari yang tidak terikat pada satu framework saja. Jadi satu librari bisa digunakan antar framework biasa kita sebut dengan "Framework Agnostic". Dengan  adanya ability tersebut, para pembuat framework dan project PHP lainnya membentuk suatu grup yang dinamakan FIG yang bertujuan memusyawarahkan beberapa kesamaan yang ada pada project mereka dan mencari cara untuk dapat bekerja sama dengan ketentuan yang disepakati bersama pula.
+FIG adalah singkatan dari Framework Interoperability Group. Sejalan perkembangannya, di PHP saat ini, kita bisa menggunakan sebuah librari yang tidak terikat pada satu framework saja. Jadi satu librari bisa digunakan antar framework, biasa kita sebut dengan "Framework Agnostic". Dengan  adanya ability tersebut, para pembuat framework dan project PHP lainnya membentuk suatu grup yang dinamakan FIG yang bertujuan memusyawarahkan beberapa kesamaan yang ada pada project mereka dan mencari cara untuk dapat bekerja sama dengan ketentuan yang disepakati bersama pula.
 
 Halaman: <http://www.php-fig.org>
 
@@ -36,8 +36,10 @@ Jika kode berkembang beribu-ribu bahkan berjuta baris, penulisan kode dengan gay
 
 Jika anda bekerja dalam sebuah tim di suatu perusahaan, tanyakan apakah tim tersebut sudah punya panduan gaya penulisan kode program, jika belum, sebaiknya buat atau pilih salah satu.
 
-Additional Resources:
 
+Additional Resources:
+ - <http://www.php-fig.org/psr/psr-1>
+ - <http://www.php-fig.org/psr/psr-2>
  - <http://en.wikipedia.org/wiki/Indent_style>
  - <http://framework.zend.com/manual/1.12/en/coding-standard.coding-style.html>
  - <http://fuelphp.com/docs/general/coding_standards.html>
