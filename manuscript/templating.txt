@@ -1,0 +1,41 @@
+# Templating
+Pernah melihat kode dibawah ?  atau yang mirip ?
+
+```cpp
+
+cout<<"\n| nama  |  alamat | usia ";
+for (a=0;a<5;a++) {
+    cout<<"\n|"<<data[a].nama<<"   | "<<data[a].alamat<<"  |  "<<data[a].usia;
+}
+```
+
+Itu adalah kode C++ untuk mencetak "tabel" di *console*. Mahasiswa ilmu komputer tingkat awal yang belajar C++ mungkin kenal. Bagi anda yang sebelumnya pernah belajar C++ dan kemudian belajar PHP, dapat kah membuat kode yang equivalen dengan PHP untuk membuat tabel yang mirip pada HTML (browser) ? ya, bagi programmer PHP pemula yang sebelumnya belajar C++, kebanyakan mungkin akan membuatnya seperti berikut:
+```php
+<?php
+echo '<tabel>';
+for($a=0;$a<5;$a++) {
+    echo '<tr>';
+        echo '<td>'.data[$a]['nama'].'</td><td>'.data[$a]['alamat'].'</td><td>'.data[$a]['usia'].'</td>';
+    echo '</tr>';
+}
+echo '</table>';
+```
+is that not ok ? or what ?
+
+...that's ok.
+
+Tapi, ketika kita bekerja dengan web designer atau Frontend Developer mungkin penulisan kode seperti diatas akan sangat merepotkan. Dengan menggunakan *PHP alternative syntax* dan *short open tag* penulisan kode diatas dapat ditulis dengan jauh lebih baik lagi dan lebih *Template Oriented*:
+
+## FOR
+
+```php
+<tabel>
+	<? for($a=0;$a<5;$a++): ?>
+    <tr>
+       <td> <?= data[$a]['nama'] ?></td>
+       <td> <?= data[$a]['alamat'] ?></td>
+       <td> <?= data[$a]['usia'] ?></td>
+    </tr>
+    <? endfor; ?>
+</table>
+```
