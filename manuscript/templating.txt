@@ -26,11 +26,9 @@ is that not ok ? or what ?
 
 Tapi, ketika kita bekerja dengan web designer atau Frontend Developer mungkin penulisan kode seperti diatas akan sangat merepotkan. Dengan menggunakan *PHP alternative syntax* dan *short open tag* penulisan kode diatas dapat ditulis dengan jauh lebih baik lagi dan lebih *Template Oriented*:
 
-## FOR
-
 ```php
 <tabel>
-	<? for($a=0;$a<5;$a++): ?>
+  <? for($a=0;$a<5;$a++): ?>
     <tr>
        <td> <?= data[$a]['nama'] ?></td>
        <td> <?= data[$a]['alamat'] ?></td>
@@ -38,4 +36,37 @@ Tapi, ketika kita bekerja dengan web designer atau Frontend Developer mungkin pe
     </tr>
     <? endfor; ?>
 </table>
+```
+### Tentang PHP Short Open Tag
+Sintak *open tag* php yang lengkap adalah `<?php  ... ?>`. Namun PHP memilki pilihan `short_open_tag` pada file konfigurasi `php.ini`. Jika bernilai `On` atau `1`, maka kita bisa menggunakan short open tag tersebut: `<?... ?>`. __Perhatikan__ bahwa pilihan ini tidak selalu ada di semua server, walaupun PHP v >= 5.4 sudah mengaktifkannya secara default. Pilihan tersebut juga berdampak pada sintak alternatif untuk `echo`, yaitu `<?= 'string' ?>`. Namun PHP v >= 5.4 sudah bisa tenang karena sintak tersebut akan selalu tersedia. Karena php `5.3` masih banyak digunakan (pada saat saya menulis ini), untuk aman-nya, selalu gunakan sintak lengkap dan `echo` untuk mencetak variable.
+
+Contoh diatas dan contoh-contoh lainnya dituliskan dengan _open tag_ yang lengkap dan `echo` adalah sebagai berikut:
+
+#### FOR
+```php
+<tabel>
+  <?php for($a=0;$a<5;$a++): ?>
+    <tr>
+       <td> <?php echo data[$a]['nama']; ?></td>
+       <td> <?php echo data[$a]['alamat']; ?></td>
+       <td> <?php echo data[$a]['usia']; ?></td>
+    </tr>
+    <?php endfor; ?>
+</table>
+```
+
+#### IF/ELSE
+```php
+<?php if($isNotHome): ?>
+    <a href="<?php echo $linkToHome; ?>"><?php echo $linkToHome; ?></a>
+<?php endif;  ?>
+```
+
+#### FOREACH
+```php
+<ul>
+<?php foreach($list as $item): ?>
+    <li title="<?php echo $item->title; ?>"><?php echo $item->label; ?></lI>
+<?php endforeach; ?>
+</ul>
 ```
