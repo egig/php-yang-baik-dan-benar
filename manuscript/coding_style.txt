@@ -9,18 +9,18 @@ Di Dunia PHP (penulis tidak tahu di bahasa pemrograman yang lain) tidak ada cara
 Dikutip:
 The guidelines are similar to Pear standards in many ways, but differ in some key respects.
 
-Jadi wordpress sedikit banyak mengikuti **Pear coding standar**. Mengenai Pear, silahakan merujuk ke halaman: http://pear.php.net/manual/en/standards.php; Untuk wordpress sendiri, silahkan: https://make.wordpress.org/core/handbook/coding-standards/php/
+Jadi wordpress sedikit banyak mengikuti **Pear coding standar**. Mengenai Pear, silahakan merujuk ke halaman: <http://pear.php.net/manual/en/standards>.php; Untuk wordpress sendiri, silahkan: <https://make.wordpress.org/core/handbook/coding-standards/php>
 
 ## Codeigniter
 
-Codeigniter adalah PHP Framework yang sangat populer di dunia. Pada saat saya menulis ini, Codeigniter sudah mencapai versi 2.2.0. Jika tim anda menggunakan Codeigniter sebagai framework pengembangan aplikasi, tidak ada ruginya mempertimbangkan untuk juga mengikuti "Coding Style Guide" mereka. Silahkan merujuk pada halaman http://www.codeigniter.com/user_guide/general/styleguide.html.
+Codeigniter adalah PHP Framework yang sangat populer di dunia. Pada saat saya menulis ini, Codeigniter sudah mencapai versi 2.2.0. Jika tim anda menggunakan Codeigniter sebagai framework pengembangan aplikasi, tidak ada ruginya mempertimbangkan untuk juga mengikuti "Coding Style Guide" mereka. Silahkan merujuk pada halaman <http://www.codeigniter.com/user_guide/general/styleguide>.html.
 
 
 ## PHP-FIG
 
 FIG adalah singkatan dari Framework Interoperability Group. Sejalan perkembangannya, di PHP saat ini, kita bisa menggunakan sebuah librari yang tidak terikat pada satu framework saja. Jadi satu librari bisa digunakan antar framework biasa kita sebut dengan "Framework Agnostic". Dengan  adanya ability tersebut, para pembuat framework dan project PHP lainnya membentuk suatu grup yang dinamakan FIG yang bertujuan memusyawarahkan beberapa kesamaan yang ada pada project mereka dan mencari cara untuk dapat bekerja sama dengan ketentuan yang disepakati bersama pula.
 
-Halaman: http://www.php-fig.org
+Halaman: <http://www.php-fig.org>
 
 Mengenai *Coding Style*, PHP-FIG mempunyai beberapa kesepakatan yang disebut PSR (PHP Standards Recomendation). PSR-1 adalah tentang "Coding Standards" sedangkan PSR-2 adalah tentang "Coding Style Guide". Framework-framework yang menggunakan PSR (pada saat saya menulis halaman ini) diantaranya:
 
@@ -32,12 +32,12 @@ Mengenai *Coding Style*, PHP-FIG mempunyai beberapa kesepakatan yang disebut PSR
 
 Programmer atau developer berpengalaman mungkin sudah tahu jawabannya. Panduan Gaya Penulisan Kode Program membuat kode terlihat lebih rapih dan lebih enak dibaca yang mana membuat programmer lain mudah untuk mengerti, yang selanjutnya akan memudahkan dalam kerja kolaboratif.
 
-Jika kode berkembang beribu-ribu bahkan berjuta baris, penulisan kode dengan gaya penulisan yang baik, benar dan konsisten akan memudahkan programer untuk memahami kode tersebut kembali nantinya dalam me-maintain kode tersebut. Bayangkan jika penulisan berjuta baris kode tidak beraturan !.
+Jika kode berkembang beribu-ribu bahkan berjuta baris, penulisan kode dengan gaya penulisan yang baik, benar dan konsisten akan memudahkan programer untuk memahami kode tersebut kembali nantinya dalam me-maintain kode tersebut. Bayangkan jika penulisan berjuta baris kode tidak beraturan !
 
 Jika anda bekerja dalam sebuah tim di suatu perusahaan, tanyakan apakah tim tersebut sudah punya panduan gaya penulisan kode program, jika belum, sebaiknya buat atau pilih salah satu.
 
-Sumber-sumber tambahan:
+Additional Resources:
 
-http://en.wikipedia.org/wiki/Indent_style
-http://framework.zend.com/manual/1.12/en/coding-standard.coding-style.html
-http://fuelphp.com/docs/general/coding_standards.html
+ - <http://en.wikipedia.org/wiki/Indent_style>
+ - <http://framework.zend.com/manual/1.12/en/coding-standard.coding-style.html>
+ - <http://fuelphp.com/docs/general/coding_standards.html>
