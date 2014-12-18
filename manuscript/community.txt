@@ -1,6 +1,8 @@
 # Komunitas
 
-Hal lainnya yang menarik dari programming adalah komunitas. Dalam suatu komunitas kita bisa berbagi, bertanya dan mendapat banyak hal, dan yang sudah pasti  adalah ilmu dan teman-teman baru. Kebanyakan komunitas terbuka untuk anggota baru. Kita bisa ikut komunitas lokal dan internasional.
+Ketika belajar pemrogramman sendiri, ada kalanya kita _stuck_ tak tahu apa yang harus dilakukan selanjutnya. Ketika sudah kehabisan kata kunci untuk _nge-google_, pada saat ini lah mungkin komunitas sangat berguna. Stackoverflow: <http://stackoverflow.com/questions/tagged/php> adalah favorit saya.
+
+Komunitas merupakan hal yang menarik dari programming. Dalam suatu komunitas kita bisa berbagi, bertanya dan mendapat banyak hal, dan yang sudah pasti  adalah ilmu dan teman-teman baru. Kebanyakan komunitas terbuka untuk anggota baru. Banyak komunitas PHP tersebar di seluruh dunia, dari hanya sekedar grup meetup, user group, hingga global PHP Conference. Jika anda tinggal di kota-kota besar, biasanya banyak terdapat komunitas PHP lokal di sekitar anda. Jika memang benar-banar belum ada, mulailah mengajak teman-taman anda membuat sebuah group.
 
 Komunitas PHP di Indonesia yang penulis ketahui pada saat ini adalah sebagai berikut:
 
@@ -9,3 +11,5 @@ Komunitas PHP di Indonesia yang penulis ketahui pada saat ini adalah sebagai ber
  - <https://www.facebook.com/groups/35688476100>
  - <https://www.facebook.com/groups/laravel>
  - <https://www.facebook.com/groups/symfonian.indo>
+
+ Di internet, bahkan jika bahasa inggris sudah bukan lagi masalah bagi anda, lebih banyak lagi komunitas/grup dimana kita bisa bergabung. Kita bisa mulai dengan bergabung di halaman <https://plus.google.com/communities/117288116158934932824> setelah itu kita bisa google lebih banyak lagi dengan kata kunci "PHP developer" atau semacamnya.
