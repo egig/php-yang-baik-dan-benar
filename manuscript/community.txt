@@ -1,0 +1,11 @@
+# Komunitas
+
+Hal lainnya yang menarik dari programming adalah komunitas. Dalam suatu komunitas kita bisa berbagi, bertanya dan mendapat banyak hal, dan yang sudah pasti  adalah ilmu dan teman-teman baru. Kebanyakan komunitas terbuka untuk anggota baru. Kita bisa ikut komunitas lokal dan internasional.
+
+Komunitas PHP di Indonesia yang penulis ketahui pada saat ini adalah sebagai berikut:
+
+ - <http://phpindonesia.net>
+ - <https://www.facebook.com/groups/codeigniter.id>
+ - <https://www.facebook.com/groups/35688476100>
+ - <https://www.facebook.com/groups/laravel>
+ - <https://www.facebook.com/groups/symfonian.indo>
